@@ -81,6 +81,7 @@ document.addEventListener('click',function(e){
 .tb-wx-icon{width:15px;height:15px;color:var(--mute)}
 .tb-wx-temp{font-weight:700;color:var(--ink)}
 .tb-wx-desc{color:var(--mute);font-size:12px}
+.tb-clock{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;font-size:13px;padding-left:8px;border-left:1px solid rgba(21,20,26,.12);margin-left:8px}
 .tb-usd{display:flex;align-items:center;gap:12px;padding-left:14px;color:var(--ink)}
 .tb-usd span{color:var(--mute);font-size:12px;font-weight:400}
 .tb-wa{display:flex;align-items:center;gap:5px;padding-left:14px;border-left:1px solid rgba(21,20,26,.12);color:var(--mute,#6b6b6b);font-size:12px;font-weight:600;text-decoration:none;letter-spacing:.01em;white-space:nowrap;transition:color .15s}
@@ -115,6 +116,7 @@ document.addEventListener('click',function(e){
       <svg class="tb-wx-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
       <span class="tb-wx-temp" id="tbTemp">--°</span>
       <span class="tb-wx-desc" id="tbDesc"></span>
+      <span class="tb-clock" id="tbClock" aria-label="Hora actual"></span>
     </div>
     <div class="tb-usd" id="tbUsd" aria-label="Cotización del dólar"></div>
     <a class="tb-wa" href="https://whatsapp.com/channel/0029Vb9D5my42DcbkMYsb61v" target="_blank" rel="noopener" aria-label="Canal de difusión de WhatsApp">
@@ -799,6 +801,16 @@ header#hd .w.nv{position:relative;background:var(--cream,#F4EEE4);border-top:1px
   const now = new Date();
   const tbDate = document.getElementById('tbDate');
   if (tbDate) tbDate.textContent = DIAS[now.getDay()] + ' ' + now.getDate() + ' de ' + MESES[now.getMonth()] + ' ' + now.getFullYear();
+
+  // Reloj en vivo
+  const updateClock = () => {
+    const el = document.getElementById('tbClock');
+    if (!el) return;
+    const t = new Date();
+    el.textContent = String(t.getHours()).padStart(2,'0') + ':' + String(t.getMinutes()).padStart(2,'0');
+  };
+  updateClock();
+  setInterval(updateClock, 15000);
 
   // Clima Buenos Aires (wttr.in, sin key)
   (async () => {
