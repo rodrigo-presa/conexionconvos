@@ -81,7 +81,6 @@ document.addEventListener('click',function(e){
 .tb-wx-icon{width:15px;height:15px;color:var(--mute)}
 .tb-wx-temp{font-weight:700;color:var(--ink)}
 .tb-wx-desc{color:var(--mute);font-size:12px}
-.tb-clock{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;font-size:13px;padding-left:8px;border-left:1px solid rgba(21,20,26,.12);margin-left:8px}
 .tb-usd{display:flex;align-items:center;gap:12px;padding-left:14px;color:var(--ink)}
 .tb-usd span{color:var(--mute);font-size:12px;font-weight:400}
 .tb-wa{display:flex;align-items:center;gap:5px;padding-left:14px;border-left:1px solid rgba(21,20,26,.12);color:var(--mute,#6b6b6b);font-size:12px;font-weight:600;text-decoration:none;letter-spacing:.01em;white-space:nowrap;transition:color .15s}
@@ -791,67 +790,6 @@ header#hd .w.nv{position:relative;background:var(--cream,#F4EEE4);border-top:1px
 <script src="/assets/cc.js?v=2"></script>
 
 <script>
-// --- Barra top: fecha, clima, dólar ---
-(() => {
-  const fmt = n => '$' + Math.round(n).toLocaleString('es-AR');
-  const DIAS = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
-  const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-
-  // Fecha
-  const now = new Date();
-  const tbDate = document.getElementById('tbDate');
-  if (tbDate) tbDate.textContent = DIAS[now.getDay()] + ' ' + now.getDate() + ' de ' + MESES[now.getMonth()] + ' ' + now.getFullYear();
-
-  // Reloj en vivo
-  const updateClock = () => {
-    const el = document.getElementById('tbClock');
-    if (!el) return;
-    const t = new Date();
-    el.textContent = String(t.getHours()).padStart(2,'0') + ':' + String(t.getMinutes()).padStart(2,'0');
-  };
-  updateClock();
-  setInterval(updateClock, 15000);
-
-  // Clima Buenos Aires (wttr.in, sin key)
-  (async () => {
-    try {
-      const r = await fetch('https://wttr.in/Buenos+Aires?format=j1', {signal: AbortSignal.timeout(6000)});
-      const d = await r.json();
-      const c = d.current_condition[0];
-      const temp = Math.round(parseFloat(c.temp_C));
-      const desc = c.lang_es?.[0]?.value || c.weatherDesc?.[0]?.value || '';
-      const el = document.getElementById('tbTemp');
-      const de = document.getElementById('tbDesc');
-      if (el) el.textContent = temp + '°C';
-      if (de) de.textContent = 'Buenos Aires · ' + desc;
-    } catch (_) {
-      const el = document.getElementById('tbWx');
-      if (el) el.style.display = 'none';
-    }
-  })();
-
-  // Dólar
-  (async () => {
-    try {
-      const r = await fetch('https://dolarapi.com/v1/dolares', {signal: AbortSignal.timeout(8000)});
-      const list = await r.json();
-      const get = casa => list.find(d => d.casa === casa);
-      const oficial = get('oficial'), blue = get('blue'), mep = get('bolsa');
-      if (!oficial || !blue) throw 0;
-      const box = document.getElementById('tbUsd');
-      if (!box) return;
-      let html = '<span>USD</span>';
-      html += '<span>Oficial <b>' + fmt(oficial.venta) + '</b></span>';
-      html += '<span>Blue <b>' + fmt(blue.venta) + '</b></span>';
-      if (mep) html += '<span>MEP <b>' + fmt(mep.venta) + '</b></span>';
-      box.innerHTML = html;
-    } catch (_) {
-      const box = document.getElementById('tbUsd');
-      if (box) box.style.display = 'none';
-    }
-  })();
-})();
-
 // --- Búsqueda ---
 (() => {
   const openBtn = document.getElementById('srchOpen');
