@@ -1,0 +1,4 @@
+*.bak*
+_to_delete
+ABRIR-SITIO.bat
+.vercelignore

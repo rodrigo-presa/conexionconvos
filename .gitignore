@@ -1,0 +1,13 @@
+.vercel
+*.bak*
+*.bak_*
+_to_delete/
+_bak_banner_20261005/
+ABRIR-SITIO.bat
+Claude outputs/
+Nueva carpeta/
+*-copy.html
+*-copy.css
+cc-copy.css
+cc-site-copy.css
+gastro-copy.html

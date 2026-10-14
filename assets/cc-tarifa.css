@@ -1,0 +1,24 @@
+/* Tarifario "solo en la página" (publicidad) */
+.tf{max-width:960px;margin:44px auto 0;border-top:1.5px solid var(--ink)}
+.tf-r{display:grid;grid-template-columns:54px minmax(0,1fr) auto;gap:0 22px;align-items:center;padding:26px 0;border-bottom:1px solid var(--line)}
+.tf-n{font-family:Fraunces,serif;font-size:24px;font-weight:500;color:var(--red);align-self:start;padding-top:2px}
+.tf-t h3{font-family:Fraunces,serif;font-size:25px;font-weight:600;line-height:1.15;margin:0}
+.tf-t p{font-size:15.5px;line-height:1.6;color:var(--mute);margin:8px 0 0;max-width:58ch}
+.tf-tag{display:inline-block;margin-top:12px;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:5px 11px}
+.tf-p{text-align:right;min-width:190px}
+.tf-p b{font-family:Fraunces,serif;font-size:34px;font-weight:600;display:block;line-height:1.05}
+.tf-p small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:3px 0 12px}
+.tf-p .btn{padding:11px 20px;font-size:14px}
+.tf-r.hot{background:#fff;border:1.5px solid var(--ink);border-radius:16px;padding:28px 26px;margin:14px -26px;box-shadow:0 22px 44px -26px rgba(21,20,26,.35)}
+.tf-r.hot .tf-tag{background:var(--ink);color:#fff;border-color:var(--ink)}
+@media (max-width:760px){
+ .tf-r{grid-template-columns:1fr;gap:12px;padding:24px 0}
+ .tf-n{font-size:20px}
+ .tf-p{text-align:left;min-width:0;display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 12px}
+ .tf-p b{font-size:30px}
+ .tf-p small{margin:0}
+ .tf-p .btn{width:100%;margin-top:10px}
+ .tf-r.hot{margin:14px -12px;padding:22px 16px}
+}
+#planes .scar{font-weight:500;font-size:13.5px;line-height:1.5;color:var(--mute);justify-content:flex-start;align-items:flex-start;max-width:960px;margin:26px auto 0}
+#planes .scar i{flex:none;margin-top:5px}

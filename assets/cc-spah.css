@@ -1,0 +1,14 @@
+/* Bloque auspiciante SPAH · Octubre Rosa (Bienestar & Salud) */
+.spah{--rose:#CD8A92;--rose-d:#8F3B4A;background:linear-gradient(180deg,#F8ECEC 0%,var(--cream) 100%);border-radius:28px;padding:44px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,.8fr);gap:44px;align-items:center}
+.spah-tx .eyebrow{color:var(--rose-d)}
+.spah-tx h2{font-family:Fraunces,serif;font-weight:600;font-size:clamp(28px,3.4vw,42px);line-height:1.1;margin:10px 0 14px;color:var(--ink)}
+.spah-tx h2 em{font-style:italic;color:var(--rose-d)}
+.spah-tx p{color:var(--mute);font-size:17px;line-height:1.6;max-width:56ch;margin:0 0 20px}
+.spah-vid{position:relative;border-radius:18px;overflow:hidden;background:#000;aspect-ratio:16/9;box-shadow:0 24px 50px -22px rgba(143,59,74,.55);margin-bottom:22px}
+.spah-vid video{width:100%;height:100%;display:block;object-fit:cover;background:#000}
+.spah-meta{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center}
+.spah-meta small{font-size:13px;color:var(--mute);line-height:1.4}
+.spah-fl{margin:0;justify-self:center;width:100%;max-width:340px}
+.spah-fl img{width:100%;height:auto;display:block;border-radius:16px;box-shadow:0 26px 50px -22px rgba(143,59,74,.6)}
+.spah-tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);border:1px solid var(--line);border-radius:999px;padding:5px 11px;margin-bottom:14px;background:#fff}
+@media (max-width:900px){.spah{grid-template-columns:1fr;padding:26px 20px;gap:28px;border-radius:22px}.spah-fl{max-width:300px}}
