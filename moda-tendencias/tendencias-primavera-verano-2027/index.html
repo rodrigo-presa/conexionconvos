@@ -69,8 +69,35 @@ document.addEventListener('click',function(e){
 .mnav{top:var(--hd-h,130px)!important;inset:auto!important;left:0!important;right:0!important;position:fixed!important}
 @media(max-width:600px){.tb-wx-desc,.tb-date{display:none}.tb-wx{padding:0 10px}.tb-usd{padding-left:10px;gap:8px}}
 </style>
+<style id="mdr-ribbon-styles">
+#mdr-ribbon{background:#7B1E34;color:#F4EEE4;font-size:12px;font-family:Roboto,system-ui,sans-serif;padding:8px 0;line-height:1.4;position:relative;z-index:200}
+.mdr-ribbon__inner{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.mdr-ribbon__text{margin:0;flex:1;min-width:0;font-size:12px;letter-spacing:.01em}
+.mdr-ribbon__text strong{color:#C09060;font-weight:700;letter-spacing:.06em}
+.mdr-ribbon__actions{display:flex;gap:8px;flex-shrink:0;flex-wrap:wrap;align-items:center}
+.mdr-ribbon__btn{padding:5px 13px;border-radius:20px;font-size:11px;font-weight:700;text-decoration:none;white-space:nowrap;letter-spacing:.03em;transition:opacity .15s;line-height:1.5;display:inline-block}
+.mdr-ribbon__btn--ed{background:#C09060;color:#fff}
+.mdr-ribbon__btn--co{border:1px solid rgba(240,230,210,.45);color:#F4EEE4;background:transparent}
+.mdr-ribbon__btn:hover{opacity:.82}
+@media(max-width:640px){
+  .mdr-ribbon__inner{flex-direction:column;align-items:flex-start;gap:7px}
+  #mdr-ribbon{padding:9px 0 10px}
+  .mdr-ribbon__text{font-size:11px;line-height:1.5}
+  .mdr-ribbon__actions{width:100%;gap:7px}
+  .mdr-ribbon__btn{font-size:10.5px;padding:5px 11px}
+}
+</style>
 </head><body>
 <!-- TOPBAR -->
+<div id="mdr-ribbon" role="complementary" aria-label="Edicion especial Dia de la Madre">
+<div class="w mdr-ribbon__inner">
+  <p class="mdr-ribbon__text">&#127800; <strong>EDICION ESPECIAL &middot; DIA DE LA MADRE</strong> &middot; Domingo 18 de Octubre &mdash; Donde festejar, regalos y escapadas</p>
+  <div class="mdr-ribbon__actions">
+    <a href="/#especial-madre" class="mdr-ribbon__btn mdr-ribbon__btn--ed">Ver Especial &rarr;</a>
+    <a href="https://wa.me/541160512401?text=Hola%21%20Quiero%20anunciar%20mi%20marca%20en%20el%20Especial%20D%C3%ADa%20de%20la%20Madre" target="_blank" rel="noopener" class="mdr-ribbon__btn mdr-ribbon__btn--co">Suma tu lugar / Anunciar</a>
+  </div>
+</div>
+</div>
 <div id="topbar"><div class="w">
   <div class="tb-inner">
     <span class="tb-date" id="tbDate"></span>

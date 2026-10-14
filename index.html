@@ -51,6 +51,24 @@ document.addEventListener('click',function(e){
   gtag('event','generate_lead',{link_location:String(where).split(' ')[0],link_text:(a.textContent||'').trim().slice(0,40)});
 },true);
 </script>
+<style id="mdr-ribbon-styles">
+#mdr-ribbon{background:#7B1E34;color:#F4EEE4;font-size:12px;font-family:Roboto,system-ui,sans-serif;padding:8px 0;line-height:1.4;position:relative;z-index:200}
+.mdr-ribbon__inner{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.mdr-ribbon__text{margin:0;flex:1;min-width:0;font-size:12px;letter-spacing:.01em}
+.mdr-ribbon__text strong{color:#C09060;font-weight:700;letter-spacing:.06em}
+.mdr-ribbon__actions{display:flex;gap:8px;flex-shrink:0;flex-wrap:wrap;align-items:center}
+.mdr-ribbon__btn{padding:5px 13px;border-radius:20px;font-size:11px;font-weight:700;text-decoration:none;white-space:nowrap;letter-spacing:.03em;transition:opacity .15s;line-height:1.5;display:inline-block}
+.mdr-ribbon__btn--ed{background:#C09060;color:#fff}
+.mdr-ribbon__btn--co{border:1px solid rgba(240,230,210,.45);color:#F4EEE4;background:transparent}
+.mdr-ribbon__btn:hover{opacity:.82}
+@media(max-width:640px){
+  .mdr-ribbon__inner{flex-direction:column;align-items:flex-start;gap:7px}
+  #mdr-ribbon{padding:9px 0 10px}
+  .mdr-ribbon__text{font-size:11px;line-height:1.5}
+  .mdr-ribbon__actions{width:100%;gap:7px}
+  .mdr-ribbon__btn{font-size:10.5px;padding:5px 11px}
+}
+</style>
 </head>
 <body>
 
@@ -81,6 +99,15 @@ document.addEventListener('click',function(e){
 .tb-usd b{font-weight:700}
 @media(max-width:600px){.tb-wx-desc,.tb-date{display:none}.tb-wx{padding:0 10px}.tb-usd{padding-left:10px;gap:8px}}
 </style>
+<div id="mdr-ribbon" role="complementary" aria-label="Edicion especial Dia de la Madre">
+<div class="w mdr-ribbon__inner">
+  <p class="mdr-ribbon__text">&#127800; <strong>EDICION ESPECIAL &middot; DIA DE LA MADRE</strong> &middot; Domingo 18 de Octubre &mdash; Donde festejar, regalos y escapadas</p>
+  <div class="mdr-ribbon__actions">
+    <a href="/#especial-madre" class="mdr-ribbon__btn mdr-ribbon__btn--ed">Ver Especial &rarr;</a>
+    <a href="https://wa.me/541160512401?text=Hola%21%20Quiero%20anunciar%20mi%20marca%20en%20el%20Especial%20D%C3%ADa%20de%20la%20Madre" target="_blank" rel="noopener" class="mdr-ribbon__btn mdr-ribbon__btn--co">Suma tu lugar / Anunciar</a>
+  </div>
+</div>
+</div>
 <div id="topbar"><div class="w">
   <div class="tb-inner">
     <span class="tb-date" id="tbDate"></span>
@@ -197,6 +224,45 @@ document.addEventListener('click',function(e){
     </a>
   </div>
 </section>
+
+<!-- ===== ESPECIAL DIA DE LA MADRE ===== -->
+<section id="especial-madre" aria-labelledby="em-title" style="background:linear-gradient(135deg,#2D121B 0%,#7B1E34 100%);padding:52px 0 60px;position:relative">
+<div class="w">
+  <div style="text-align:center;margin-bottom:40px">
+    <p style="font-family:Roboto,system-ui,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#C09060;font-weight:700;margin:0 0 12px">&#127800; Edici&oacute;n Especial &middot; 18 de Octubre 2026</p>
+    <h2 id="em-title" style="font-family:Fraunces,Georgia,serif;font-size:clamp(1.7rem,4vw,2.6rem);font-weight:700;color:#F4EEE4;letter-spacing:-.03em;margin:0 0 16px;line-height:1.1">Experiencias para agasajarla</h2>
+    <p style="font-family:Roboto,system-ui,sans-serif;font-size:15px;color:rgba(244,238,228,.75);max-width:520px;margin:0 auto;line-height:1.65">Selecci&oacute;n exclusiva de almuerzos, d&iacute;as de spa, escapadas y regalos para este domingo 18 de octubre.</p>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:16px">
+    <a href="/gastronomia-de-nivel/" style="display:flex;flex-direction:column;background:rgba(244,238,228,.07);border:1px solid rgba(192,144,96,.3);border-radius:12px;padding:26px 22px 22px;text-decoration:none;gap:10px" onmouseover="this.style.background='rgba(244,238,228,.13)'" onmouseout="this.style.background='rgba(244,238,228,.07)'">
+      <span style="font-size:30px;line-height:1">&#127869;&#65039;</span>
+      <h3 style="font-family:Fraunces,Georgia,serif;font-size:1.07rem;font-weight:700;color:#F4EEE4;margin:0;letter-spacing:-.02em">Gastronom&iacute;a</h3>
+      <p style="font-family:Roboto,system-ui,sans-serif;font-size:13px;color:rgba(244,238,228,.7);margin:0;line-height:1.55;flex:1">Los mejores almuerzos y brunchs para celebrar en familia</p>
+      <span style="font-family:Roboto,system-ui,sans-serif;font-size:12px;color:#C09060;font-weight:700;margin-top:6px">Ver restaurantes &rarr;</span>
+    </a>
+    <a href="/bienestar-salud/" style="display:flex;flex-direction:column;background:rgba(244,238,228,.07);border:1px solid rgba(192,144,96,.3);border-radius:12px;padding:26px 22px 22px;text-decoration:none;gap:10px" onmouseover="this.style.background='rgba(244,238,228,.13)'" onmouseout="this.style.background='rgba(244,238,228,.07)'">
+      <span style="font-size:30px;line-height:1">&#129328;&#8205;&#9792;&#65039;</span>
+      <h3 style="font-family:Fraunces,Georgia,serif;font-size:1.07rem;font-weight:700;color:#F4EEE4;margin:0;letter-spacing:-.02em">Bienestar</h3>
+      <p style="font-family:Roboto,system-ui,sans-serif;font-size:13px;color:rgba(244,238,228,.7);margin:0;line-height:1.55;flex:1">D&iacute;as de spa y circuitos relax: el mimo que se merece</p>
+      <span style="font-family:Roboto,system-ui,sans-serif;font-size:12px;color:#C09060;font-weight:700;margin-top:6px">Ver opciones &rarr;</span>
+    </a>
+    <a href="/escapadas-travel/" style="display:flex;flex-direction:column;background:rgba(244,238,228,.07);border:1px solid rgba(192,144,96,.3);border-radius:12px;padding:26px 22px 22px;text-decoration:none;gap:10px" onmouseover="this.style.background='rgba(244,238,228,.13)'" onmouseout="this.style.background='rgba(244,238,228,.07)'">
+      <span style="font-size:30px;line-height:1">&#127807;</span>
+      <h3 style="font-family:Fraunces,Georgia,serif;font-size:1.07rem;font-weight:700;color:#F4EEE4;margin:0;letter-spacing:-.02em">Escapadas</h3>
+      <p style="font-family:Roboto,system-ui,sans-serif;font-size:13px;color:rgba(244,238,228,.7);margin:0;line-height:1.55;flex:1">Hoteles de campo y escapadas de primavera a pocas horas de la ciudad</p>
+      <span style="font-family:Roboto,system-ui,sans-serif;font-size:12px;color:#C09060;font-weight:700;margin-top:6px">Ver escapadas &rarr;</span>
+    </a>
+    <a href="https://wa.me/541160512401?text=Hola%21%20Quiero%20publicar%20en%20el%20Especial%20D%C3%ADa%20de%20la%20Madre%20de%20Conexi%C3%B3n%20con%20Vos" target="_blank" rel="noopener" style="display:flex;flex-direction:column;background:rgba(192,144,96,.12);border:1.5px solid rgba(192,144,96,.7);border-radius:12px;padding:26px 22px 22px;text-decoration:none;gap:10px" onmouseover="this.style.background='rgba(192,144,96,.22)'" onmouseout="this.style.background='rgba(192,144,96,.12)'">
+      <span style="font-size:30px;line-height:1">&#128227;</span>
+      <h3 style="font-family:Fraunces,Georgia,serif;font-size:1.07rem;font-weight:700;color:#C09060;margin:0;letter-spacing:-.02em">&iquest;Ten&eacute;s un restaurante, spa o marca?</h3>
+      <p style="font-family:Roboto,system-ui,sans-serif;font-size:13px;color:rgba(244,238,228,.7);margin:0;line-height:1.55;flex:1">Public&aacute; tu propuesta en la Gu&iacute;a Especial D&iacute;a de la Madre</p>
+      <span style="font-family:Roboto,system-ui,sans-serif;font-size:12px;color:#C09060;font-weight:700;margin-top:6px">Quiero anunciar &rarr;</span>
+    </a>
+  </div>
+</div>
+</section>
+<!-- /ESPECIAL DIA DE LA MADRE -->
+
 
 <!-- ===== ADSENSE: LEADERBOARD (728×90 / responsive) ===== -->
 <div style="padding:24px 0 8px;background:var(--cream,#F4EEE4)">
@@ -864,7 +930,7 @@ header#hd .w.nv{position:relative;background:var(--cream,#F4EEE4);border-top:1px
   function setHdH() {
     var hd = document.getElementById('hd');
     if (hd) {
-      document.documentElement.style.setProperty('--hd-h', hd.offsetHeight + 'px');
+      document.documentElement.style.setProperty('--hd-h', (hd.offsetTop + hd.offsetHeight) + 'px');
     }
   }
   if (document.readyState === 'loading') {
