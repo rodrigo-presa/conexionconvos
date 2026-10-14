@@ -161,12 +161,29 @@ document.addEventListener('click',function(e){
 </nav>
 
 <main id="main">
-<section class="blk" style="padding:170px 0 90px"><div class="w" style="max-width:760px">
- <span class="eyebrow">Error 404</span>
- <h1 style="margin-top:14px">Esta página <em>no existe</em> o se movió.</h1>
- <p class="sub" style="margin-top:18px">Puede que el link esté mal escrito o que la nota haya cambiado de lugar. Mientras tanto, mirá lo que sí está publicado:</p>
- <div class="ctas" style="margin-top:28px"><a class="btn btn-main" href="/">Ir al inicio <span class="arrow">→</span></a><a class="btn btn-ghost" href="/bienestar-salud/">Bienestar &amp; Salud</a><a class="btn btn-ghost" href="/gastronomia-de-nivel/">Gastronomía</a><a class="btn btn-ghost" href="/escapadas-travel/">Escapadas</a></div>
-</div></section>
+<section class="blk" style="padding:160px 0 80px">
+<div class="w" style="max-width:680px;text-align:center">
+  <span class="eyebrow" style="display:block;margin-bottom:16px">Error 404</span>
+  <h1 style="font-family:Fraunces,Georgia,serif;font-size:clamp(2rem,5vw,3.2rem);font-weight:700;letter-spacing:-.03em;line-height:1.1;margin:0 0 20px">
+    Esta página <em>se fue de viaje</em>
+  </h1>
+  <p class="sub" style="font-size:17px;line-height:1.65;color:var(--mute,#6b6b6b);max-width:480px;margin:0 auto 32px">
+    El enlace que buscás no existe o fue movido. Pero podés seguir descubriendo lo mejor de Buenos Aires, Uruguay y el mundo.
+  </p>
+  <div class="ctas" style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:40px">
+    <a class="btn btn-main" href="/" style="font-size:15px">Volver a la portada <span>→</span></a>
+    <a class="btn btn-ghost" id="btn404srch" href="#" onclick="document.getElementById('srchOpen').click();return false">Ir al buscador</a>
+  </div>
+  <p style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--mute,#6b6b6b);margin-bottom:16px">O explorá estas secciones</p>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center">
+    <a href="/escapadas-travel/" class="btn btn-ghost">Escapadas &amp; Travel</a>
+    <a href="/gastronomia-de-nivel/" class="btn btn-ghost">Gastronomía</a>
+    <a href="/bienestar-salud/" class="btn btn-ghost">Bienestar</a>
+    <a href="/moda-tendencias/" class="btn btn-ghost">Moda</a>
+    <a href="/decoracion-arquitectura/" class="btn btn-ghost">Decoración</a>
+  </div>
+</div>
+</section>
 </main>
 <footer><div class="w ft">
  <a class="logo" href="/"><img src="/img/logo.webp" alt="" width="40" height="40"><span>Conexión con vos</span></a>

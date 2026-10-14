@@ -27,3 +27,12 @@
    gtag('event','generate_lead',{method:'whatsapp',pagina:location.pathname,lugar:lugar});
   },true);
  })();
+
+ // Share WA: URL dinámica en .nt-share
+ (function(){
+  var wa=document.querySelector('.nt-share a[href*="wa.me"]');
+  if(!wa)return;
+  var title=(document.querySelector('h1')||document.querySelector('title')||{}).textContent||document.title;
+  title=title.replace(/ \| Conexi.n con Vos\s*$/,'').trim();
+  wa.href='https://wa.me/?text='+encodeURIComponent(title+' — '+location.href);
+ })();
