@@ -1,3 +1,4 @@
+import { MagazineCovers } from "../components/home/MagazineCovers";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AdSlot } from "../components/AdSlot";
@@ -204,6 +205,7 @@ export function Home() {
       </section>
 
       <AdSlot format="horizontal" />
+      <MagazineCovers />
 
 
 
