@@ -1,0 +1,72 @@
+{
+  "rewrites": [
+    {
+      "source": "/actualidad",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/viajes",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/gastronomia",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/bienestar",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/moda",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/decoracion",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/escapadas-travel/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/gastronomia-de-nivel/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/bienestar-salud/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/moda-tendencias/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/decoracion-arquitectura/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/quienes-somos",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/contacto",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/politica-de-privacidad",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/publicidad/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/actualidad/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

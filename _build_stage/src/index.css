@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;0,6..96,900;1,6..96,400;1,6..96,700&family=Montserrat:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #15141A;
+  --cream: #F4EEE4;
+  --red: #E24D57;
+  --gold: #C7A56A;
+}
+
+@layer base {
+  * { @apply border-border; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-white text-[#111111] font-sans antialiased;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { @apply text-inherit no-underline; }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-black tracking-tight leading-none;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[11px] font-black tracking-[0.16em] uppercase text-red;
+  }
+  .container-editorial {
+    @apply max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .divider {
+    @apply border-t border-ink/10 my-6;
+  }
+  /* Vogue-style category nav links */
+  .nav-link {
+    @apply text-[13px] font-semibold uppercase tracking-[0.06em] text-ink2
+           hover:text-red transition-colors duration-200;
+  }
+  /* Article card title hover */
+  .card-title-hover {
+    @apply hover:text-red transition-colors duration-200;
+  }
+  /* Hero overlay gradient */
+  .hero-gradient {
+    background: linear-gradient(transparent 30%, rgba(21,20,26,0.85) 100%);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { @apply bg-ink/20 rounded-full; }
+
+/* Carousel scroll */
+.carousel-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.carousel-scroll::-webkit-scrollbar { display: none; }

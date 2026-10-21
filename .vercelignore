@@ -1,4 +1,9 @@
 *.bak*
 _to_delete
 ABRIR-SITIO.bat
-.vercelignore
+_old_site
+_bak*
+_build_stage
+Claude outputs
+Nueva carpeta
+conexionconvos-react

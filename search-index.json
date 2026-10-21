@@ -1,121 +1,184 @@
 [
-  {
-    "url": "/bienestar-salud/era-digital-infancias-y-adolescencias/",
-    "title": "La era digital en las infancias y adolescencias",
-    "desc": "Si estás a cargo de tareas de cuidado y crianza de niños/as y adolescentes, quedate a leer esta columna...",
-    "img": "https://conexionconvos.com/img/era-digital.jpg",
-    "cat": "Bienestar & Salud"
-  },
-  {
-    "url": "/bienestar-salud/eleccion-del-nombre-del-bebe/",
-    "title": "La importancia de la elección de un nombre para mi bebé",
-    "desc": "¿Qué embarazada no imaginó diferentes nombres antes de saber el género de su bebé?",
-    "img": "https://conexionconvos.com/img/notas/96db74db-fc86-42d9-9d91-0af34b665486-o.webp",
-    "cat": "Bienestar & Salud"
-  },
-  {
-    "url": "/bienestar-salud/el-secreto-mejor-guardado-de-la-belleza/",
-    "title": "El secreto mejor guardado de la belleza",
-    "desc": "Dr. Fernando Felice: \"Hoy la mayoría de los tratamientos estéticos que se realizan no son necesarios\".",
-    "img": "https://conexionconvos.com/img/notas/drfernandofelice-o.webp",
-    "cat": "Bienestar & Salud"
-  },
-  {
-    "url": "/bienestar-salud/tu-cuerpo-esta-rogando-un-descanso/",
-    "title": "Tu cuerpo está rogando un descanso.",
-    "desc": "Durante décadas nos enseñaron que debíamos comer tres veces al día, sin falta. La ciencia lo está cuestionando.",
-    "img": "https://conexionconvos.com/img/cc-28587f89.webp",
-    "cat": "Bienestar & Salud"
-  },
-  {
-    "url": "/moda-tendencias/marcelo-y-monica-peluqueria-renovada/",
-    "title": "Marcelo y Mónica unen sus talentos para ofrecer una experiencia de peluquería renovada",
-    "desc": "El sector de la belleza y el cuidado personal suma una alianza clave entre Marcelo y Mónica.",
-    "img": "https://conexionconvos.com/img/notas/monicaymarcelo-o.webp",
-    "cat": "Moda & Tendencias"
-  },
-  {
-    "url": "/decoracion-arquitectura/los-5-errores-de-decoracion/",
-    "title": "Los 5 errores de decoración más comunes y cómo evitarlos",
-    "desc": "El error: poner piezas muy grandes en cuartos pequeños o muebles diminutos en salas amplias.",
-    "img": "https://conexionconvos.com/img/notas/PARAVOS20-o.webp",
-    "cat": "Decoración & Arquitectura"
-  },
-  {
-    "url": "/decoracion-arquitectura/estado-del-sector-inmobiliario/",
-    "title": "Estado del sector inmobiliario",
-    "desc": "Aumento de costos: los gastos de edificación aumentaron considerablemente en el último tiempo.",
-    "img": "https://conexionconvos.com/img/notas/FSXD7FJWDJFPHN4PYWU4BEWTUA-o.webp",
-    "cat": "Decoración & Arquitectura"
-  },
-  {
-    "url": "/decoracion-arquitectura/andamios-del-oeste/",
-    "title": "Andamios del Oeste: Calidad, Confianza y Soluciones para la Construcción",
-    "desc": "La seguridad y el compromiso son la base de cualquier obra o proyecto de remodelación.",
-    "img": "https://conexionconvos.com/img/notas/andamiosdeloestenuevo-o.webp",
-    "cat": "Decoración & Arquitectura"
-  },
-  {
-    "url": "/gastronomia-de-nivel/el-antojo/",
-    "title": "El Antojo",
-    "desc": "Dueño del reconocimiento a la mejor milanesa de bodegón de la Ciudad de Buenos Aires.",
-    "img": "https://conexionconvos.com/img/cc-3c0deccf.webp",
-    "cat": "Gastronomía de nivel"
-  },
-  {
-    "url": "/gastronomia-de-nivel/el-preferido/",
-    "title": "El Preferido",
-    "desc": "Hay bodegones clásicos y otros que prefieren ir más allá del manual y jugar con clásicos reversionados.",
-    "img": "https://conexionconvos.com/img/notas/elpreferido-o.webp",
-    "cat": "Gastronomía de nivel"
-  },
-  {
-    "url": "/gastronomia-de-nivel/el-ferroviario/",
-    "title": "El Ferroviario",
-    "desc": "Abundante, rústico y de barrio. Se definen como \"un lugar diferente\".",
-    "img": "https://conexionconvos.com/img/notas/elferroviario-o.webp",
-    "cat": "Gastronomía de nivel"
-  },
-  {
-    "url": "/escapadas-travel/carlos-paz-nos-espera/",
-    "title": "Carlos Paz nos espera",
-    "desc": "Primavera sin alcohol 2026, con entrada libre y gratuita.",
-    "img": "https://conexionconvos.com/img/notas/0408aea6-ba0c-4445-918c-9c78d5265b0a-o.webp",
-    "cat": "Escapadas & Travel"
-  },
-  {
-    "url": "/escapadas-travel/montevideo-vientos-del-sur/",
-    "title": "Montevideo, vientos del sur.",
-    "desc": "El Pampero y la Sudestada marcan el pulso de una ciudad que vive de cara al río.",
-    "img": "https://conexionconvos.com/img/notas/montevideo-rambla-vientos-sur-o.webp",
-    "cat": "Escapadas & Travel"
-  },
-  {
-    "url": "/publicidad/como-aparecer-en-google-con-tu-negocio/",
-    "title": "Cómo hacer que tu negocio aparezca en Google: 5 pasos simples",
-    "desc": "Una guía práctica para comercios y marcas: ficha de Google, web propia, WhatsApp y reseñas.",
-    "img": "https://conexionconvos.com/img/notas/PARAVOS20-o.webp",
-    "cat": "Publicidad"
-  },
-  {
-    "url": "/escapadas-travel/bariloche-en-primavera/",
-    "title": "Bariloche en primavera: la escapada perfecta antes del verano",
-    "desc": "Cascadas en plena floración, senderos sin el frío del invierno y paisajes que cambian de color. Bariloche tiene otro ritmo en primavera.",
-    "img": "https://conexionconvos.com/img/notas/bariloche-en-primavera-o.webp",
-    "cat": "Escapadas & Travel"
-  },
-  {
-    "url": "/escapadas-travel/norte-argentino-salta-jujuy/",
-    "title": "Norte argentino: Salta y Jujuy, el viaje que siempre postergaste",
-    "desc": "Quebrada de Humahuaca, Cafayate, Purmamarca. Una ruta de paisajes únicos en el mundo y gastronomía de altura.",
-    "img": "https://conexionconvos.com/img/notas/norte-argentino-salta-jujuy-o.webp",
-    "cat": "Escapadas & Travel"
-  },
-  {
-    "url": "/escapadas-travel/miami-3-dias/",
-    "title": "Miami en 3 días: lo mejor de la ciudad sin perderse nada",
-    "desc": "Wynwood, South Beach, Little Havana y los mejores restaurantes. Una guía práctica para aprovechar cada hora en Miami.",
-    "img": "https://conexionconvos.com/img/notas/miami-3-dias-o.webp",
-    "cat": "Escapadas & Travel"
-  }
+ {
+  "url": "/actualidad/tini-show-cancelado-miami/",
+  "title": "Tini Stoessel: se suspendió su show en Miami minutos antes de salir al escenario",
+  "desc": "Era la única fecha de su gira Futttura en Estados Unidos. Tini habló de un recinto sin terminar y sin pruebas de seguridad; la productora, de requisitos técnicos incumplidos. Qué se sabe y qué todavía no está claro.",
+  "img": "/img/notas/tini-portada.webp",
+  "cat": "Actualidad"
+ },
+ {
+  "url": "/escapadas-travel/bariloche-en-primavera/",
+  "title": "Bariloche en primavera: qué hacer, dónde comer y cómo moverse",
+  "desc": " Bariloche en invierno es un clásico. Pero Bariloche en primavera es otro destino. El frío baja, los colores explotan, los senderos se vuelven caminables sin ni",
+  "img": "/img/notas/bariloche-en-primavera-o.webp",
+  "cat": "Escapadas"
+ },
+ {
+  "url": "/escapadas-travel/carlos-paz-nos-espera/",
+  "title": "Carlos Paz nos espera",
+  "desc": "PRIMAVERA SIN ALCOHOL 2026 CON ENTRADA LIBRE Y GRATUITA",
+  "img": "/img/notas/0408aea6-ba0c-4445-918c-9c78d5265b0a-o.webp",
+  "cat": "Escapadas"
+ },
+ {
+  "url": "/escapadas-travel/miami-3-dias/",
+  "title": "Miami en 3 días: la guía definitiva para aprovecharla al máximo (sin gastar una fortuna)",
+  "desc": "Playas, arte, gastronomía y vida nocturna — todo lo que necesitás saber barrio por barrio",
+  "img": "/img/notas/miami-3-dias-o.webp",
+  "cat": "Escapadas"
+ },
+ {
+  "url": "/escapadas-travel/montevideo-vientos-del-sur/",
+  "title": "Montevideo, vientos del sur.",
+  "desc": " El Pampero y la Sudestada marcan el pulso de una ciudad que vive de cara al río: arquitectura histórica, candombe y la magia de recorrer la Rambla montevideana",
+  "img": "/img/notas/GeminiGeneratedImage25qpdp25qpdp25qp-o.webp",
+  "cat": "Escapadas"
+ },
+ {
+  "url": "/escapadas-travel/norte-argentino-salta-jujuy/",
+  "title": "El norte argentino: Salta, Jujuy y Tucumán en un viaje de 7 días",
+  "desc": " El noroeste argentino tiene algo que no se explica con palabras pero que se entiende apenas bajás del avión en Salta: un aire distinto, una luz diferente, una ",
+  "img": "/img/notas/norte-argentino-salta-jujuy-o.webp",
+  "cat": "Escapadas"
+ },
+ {
+  "url": "/gastronomia-de-nivel/el-antojo/",
+  "title": "El Antojo",
+  "desc": " Dueño del reconocimiento a la mejor milanesa de bodegón de la Ciudad de Buenos Aires. Claramente no podía no estar en el listado. Y, para sorpresa de nadie, el",
+  "img": "/img/cc-3c0deccf.webp",
+  "cat": "Gastronomía"
+ },
+ {
+  "url": "/gastronomia-de-nivel/el-ferroviario/",
+  "title": "El Ferroviario",
+  "desc": " Abundante, rústico y de barrio. Se definen como \"un lugar diferente\" y la combinación de palabras le sienta muy bien a El Ferroviario. Ambientado como un talle",
+  "img": "/img/notas/elferroviario-o.webp",
+  "cat": "Gastronomía"
+ },
+ {
+  "url": "/gastronomia-de-nivel/el-preferido/",
+  "title": "El Preferido",
+  "desc": " Hay bodegones clásicos y otros que prefieren ir un poco más allá del manual y jugar con clásicos reversionados. En esa categoría entra El Preferido, una esquin",
+  "img": "/img/notas/elpreferido-o.webp",
+  "cat": "Gastronomía"
+ },
+ {
+  "url": "/gastronomia-de-nivel/restaurantes-buenos-aires-cena-especial/",
+  "title": "Los mejores restaurantes de Buenos Aires para una cena especial",
+  "desc": " Buenos Aires tiene una escena gastronómica que no para de crecer. Con chefs formados en Europa, insumos de primera y una cultura del disfrute que corre por las",
+  "img": "/img/notas/restaurantes-buenos-aires-cena-especial-o.webp",
+  "cat": "Gastronomía"
+ },
+ {
+  "url": "/gastronomia-de-nivel/tendencias-gastronomicas-2027/",
+  "title": "Tendencias gastronómicas 2027: qué se viene en la cocina argentina",
+  "desc": " La gastronomía argentina nunca se quedó quieta, pero lo que se perfila para 2027 promete ir mucho más allá de los ciclos de moda. Los chefs, los productores y ",
+  "img": "/img/notas/tendencias-gastronomicas-2027-o.webp",
+  "cat": "Gastronomía"
+ },
+ {
+  "url": "/bienestar-salud/cuando-el-maltrato-ocurre-puertas-adentro/",
+  "title": "Cuando el maltrato ocurre puertas adentro: el caso de los hijos de Romina Yan reabre el debate sobre cómo proteger a la infancia",
+  "desc": " Violencia contra las infancias: cómo reconocer las señales y dónde pedir ayuda. La violencia contra niñas, niños y adolescentes suele ocurrir dentro del hogar ",
+  "img": "/img/maltrato-infancia-esparza.jpg",
+  "cat": "Bienestar"
+ },
+ {
+  "url": "/bienestar-salud/el-secreto-mejor-guardado-de-la-belleza/",
+  "title": "El secreto mejor guardado de la belleza",
+  "desc": "Dr. Fernando Felice: \"Hoy la mayoría de los tratamientos estéticos que se realizan no son necesarios, y en muchos casos son perjudiciales\"",
+  "img": "/img/notas/cc-belleza-o.webp",
+  "cat": "Bienestar"
+ },
+ {
+  "url": "/bienestar-salud/eleccion-del-nombre-del-bebe/",
+  "title": "La importancia de la elección de un nombre para mi bebé",
+  "desc": "¿Qué embarazada no imaginó diferentes nombres antes de saber el género de su bebé?",
+  "img": "/img/notas/96db74db-fc86-42d9-9d91-0af34b665486-o.webp",
+  "cat": "Bienestar"
+ },
+ {
+  "url": "/bienestar-salud/era-digital-infancias-y-adolescencias/",
+  "title": "La era digital en las infancias y adolescencias",
+  "desc": " Si estás a cargo de tareas de cuidado y crianza de niños/as y adolescentes, quedate a leer esta columna... Cada vez son más los niños y niñas que reciben un ce",
+  "img": "/img/era-digital.jpg",
+  "cat": "Bienestar"
+ },
+ {
+  "url": "/bienestar-salud/reset-urgente-7-dias/",
+  "title": "5 señales de que tu cuerpo necesita un reset urgente (y cómo hacerlo en 7 días)",
+  "desc": "Tu cuerpo habla todo el tiempo. Aprender a escucharlo es el primer paso para sentirte mejor, sin dietas extremas ni rutinas imposibles.",
+  "img": "/img/notas/reset-urgente-o.webp",
+  "cat": "Bienestar"
+ },
+ {
+  "url": "/bienestar-salud/tu-cuerpo-esta-rogando-un-descanso/",
+  "title": "Tu cuerpo está rogando un descanso.",
+  "desc": " Durante décadas nos enseñaron que debíamos comer tres veces al día, sin falta. Pero la ciencia moderna está cuestionando ese paradigma y rescatando una práctic",
+  "img": "",
+  "cat": "Bienestar"
+ },
+ {
+  "url": "/moda-tendencias/looks-office-chic-argentina/",
+  "title": "Office chic en Argentina: cómo vestir bien en el trabajo sin gastar una fortuna",
+  "desc": " Vestirse bien para el trabajo en Argentina tiene su propio lenguaje. Entre la inflación, el smart casual que llegó para quedarse y la necesidad de proyectar pr",
+  "img": "/img/notas/looks-office-chic-argentina-o.webp",
+  "cat": "Estilo"
+ },
+ {
+  "url": "/moda-tendencias/marcelo-y-monica-peluqueria-renovada/",
+  "title": "Marcelo y Mónica unen sus talentos para ofrecer una experiencia de peluquería renovada",
+  "desc": " El sector de la belleza y el cuidado personal suma una alianza clave: Marcelo y Mónica unieron sus trayectorias para brindar un servicio de peluquería más comp",
+  "img": "/img/notas/monicaymarcelo-o.webp",
+  "cat": "Estilo"
+ },
+ {
+  "url": "/moda-tendencias/tendencias-primavera-verano-2027/",
+  "title": "Las tendencias de moda que van a dominar la primavera-verano 2026/2027",
+  "desc": " La primavera-verano 2026/2027 llegó con una propuesta clara: más color, más volumen y más atrevimiento. Las semanas de la moda de París, Milán y Nueva York mar",
+  "img": "/img/notas/tendencias-primavera-verano-2027-o.webp",
+  "cat": "Estilo"
+ },
+ {
+  "url": "/decoracion-arquitectura/andamios-del-oeste/",
+  "title": "Andamios del Oeste: Calidad, Confianza y Soluciones para la Construcción",
+  "desc": " 01 · De Excelencia En Andamios del Oeste sabemos que la seguridad y el compromiso son la base de cualquier obra o proyecto de remodelación. Somos un emprendimi",
+  "img": "/img/notas/andamiosdeloestenuevo-o.webp",
+  "cat": "Decoración"
+ },
+ {
+  "url": "/decoracion-arquitectura/departamentos-pequenos-ideas/",
+  "title": "Cómo decorar departamentos pequeños y que parezcan más grandes",
+  "desc": " Vivir en un departamento pequeño en una ciudad como Buenos Aires es, para millones de personas, la realidad cotidiana. Pero un espacio reducido no tiene por qu",
+  "img": "/img/notas/departamentos-pequenos-ideas-o.webp",
+  "cat": "Decoración"
+ },
+ {
+  "url": "/decoracion-arquitectura/estado-del-sector-inmobiliario/",
+  "title": "Estado del sector inmobiliario",
+  "desc": " Aumento de costos: Los gastos de edificación aumentaron considerablemente (con subas marcadas en materiales como el cemento y derivados), lo que achica los már",
+  "img": "/img/notas/FSXD7FJWDJFPHN4PYWU4BEWTUA-o.webp",
+  "cat": "Decoración"
+ },
+ {
+  "url": "/decoracion-arquitectura/los-5-errores-de-decoracion/",
+  "title": "Los 5 errores de decoración más comunes y cómo evitarlos",
+  "desc": " El error: Poner piezas muy grandes en cuartos pequeños o muebles diminutos en salas amplias. La solución: Mide el espacio libre. Deja lugar para caminar sin tr",
+  "img": "/img/notas/PARAVOS20-o.webp",
+  "cat": "Decoración"
+ },
+ {
+  "url": "/decoracion-arquitectura/tendencias-decoracion-2027/",
+  "title": "Las tendencias de decoración que van a redefinir los hogares en 2027",
+  "desc": " El mundo del diseño de interiores para 2027 promete una convivencia de estilos que, en apariencia, podría parecer contradictoria. Por un lado, la corriente del",
+  "img": "/img/notas/tendencias-decoracion-2027-o.webp",
+  "cat": "Decoración"
+ },
+ {
+  "url": "/publicidad/como-aparecer-en-google-con-tu-negocio/",
+  "title": "Cómo hacer que tu negocio aparezca en Google: 5 pasos simples",
+  "desc": " Hoy, cuando alguien necesita algo, lo primero que hace es buscarlo en Google. Si tu negocio no aparece, esa persona le compra a otro. La buena noticia: para ap",
+  "img": "",
+  "cat": "Guías para negocios"
+ }
 ]

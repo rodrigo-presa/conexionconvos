@@ -1,17 +1,23 @@
 {
   "name": "Conexión con Vos",
-  "short_name": "ConexiónConVos",
-  "description": "Revista digital de estilo de vida: moda, bienestar, gastronomía, decoración y viajes.",
-  "start_url": "/?pwa=1",
-  "scope": "/",
+  "short_name": "ConVos",
+  "description": "Portal de estilo de vida premium para Buenos Aires, Uruguay y el mundo.",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#F4EEE4",
-  "theme_color": "#F4EEE4",
-  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
   "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
