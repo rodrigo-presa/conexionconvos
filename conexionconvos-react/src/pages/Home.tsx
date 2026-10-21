@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AdSlot } from "../components/AdSlot";
-import { MagazineCovers } from "../components/home/MagazineCovers";
+
 
 const SANS = "'Jost', sans-serif";
 
@@ -205,7 +205,7 @@ export function Home() {
 
       <AdSlot format="horizontal" />
 
-      <MagazineCovers />
+
 
       <section className="py-6">
         <SectionTitle to="/viajes">Escapadas</SectionTitle>
